@@ -42,7 +42,7 @@ res.json()
 
 ![GET](/img/GET.png)
 
-#### 2.2 POST request
+#### 2.2 **POST** request
 
 * run the application.
 * open another Terminal session `Ctrl+Shift+T` and run `python`, then enter the following code:
@@ -52,7 +52,7 @@ res.json()
 import requests
 import json
 
-movie = {"Id": "5", "Title": "Avengers:Endgame", "Director": ["Anthony Russo", "Joe Russo"], "Year": "2019", "Rating": "8.6"}
+movie = {"Id": "5", "Title": "Avengers:Endgame", "Director": "['Anthony Russo', 'Joe Russo']", "Year": "2019", "Rating": "8.6"}
 
 res = requests.post('http://localhost:5000/', data=json.dumps(movie), headers={'Content-Type': 'application/json'})
 
@@ -62,7 +62,7 @@ res.json()
 
 ![POST](/img/POST.png)
 
-#### 2.3 PUT request
+#### 2.3 **PUT** request
 
 * run the application.
 * open another Terminal session `Ctrl+Shift+T` and run `python`, then enter the following code:
@@ -84,7 +84,7 @@ res.json()
 
 ![PUT](img/PUT.png)
 
-#### 2.4 DELETE request
+#### 2.4 **DELETE** request
 
 * run the application.
 * open another Terminal session `Ctrl+Shift+T` and run `python`, then enter the following code:
@@ -106,6 +106,6 @@ res.json()
 
 ### 3. Customize the API representation
 
-Nagivate to http://localhost:5000/external and see the customized API representaion.
+Nagivate to (http://localhost:5000/external) and see the customized API representaion.
 
-![customized](img/customized/png)
+![customized](img/customized.png)
