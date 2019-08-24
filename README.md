@@ -14,7 +14,7 @@ Express RESTful API for movies.
 
 ### 1. running the app
 
-After installing, run the server using `npm start`.
+After installing, run the server using `npm start`.<br>
 Access the running app in a browser at the URL written to the console (http://0.0.0.0:5000).
 
 ### 2. Testing the API
@@ -24,7 +24,7 @@ To test the API  implementation I will use **python** along with `requests` and 
 1. check if you have python installed in your machine `python`.
 2. `pip install requests` to install requests module.
 
-#### 2.1 GET request
+#### 2.1 **GET** request
 
 * run the application.
 * open another Terminal session `Ctrl + Shift + T` and run `python`, then enter the following code:
@@ -103,3 +103,9 @@ res.json()
 ```
 
 ![DELETE](img/DELETE.png)
+
+### 3. Customize the API representation
+
+Nagivate to http://localhost:5000/external and see the customized API representaion.
+
+![customized](img/customized/png)
