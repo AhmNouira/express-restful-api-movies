@@ -12,6 +12,7 @@ module.exports = function(app) {
   app.use(bodyParser.json());
   routes.home(app);
   routes.external(app);
+  routes.imdb(app);
   return app;
 
 };

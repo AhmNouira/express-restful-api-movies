@@ -1,4 +1,5 @@
 module.exports = {
   'home': require('./home'),
-  'external': require('./external')
+  'external': require('./external'),
+  'imdb': require('./imdb')
 }

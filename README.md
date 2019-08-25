@@ -106,6 +106,14 @@ res.json()
 
 ### 3. Customize the API representation
 
-Nagivate to (http://localhost:5000/external) and see the customized API representaion.
+* Nagivate to (http://localhost:5000/external) and see the customized API representaion.
 
 ![customized](img/customized.png)
+
+### 4. [IMDb]('https://www.imdb.com/') API request
+
+<p align="center"><a href="https://www.imdb.com/" target="_blank"><img width="480" alt="imdb" src="https://images-eu.ssl-images-amazon.com/images/I/315W5zxAnTL.png"></a></p>
+
+* Navigate to (http://localhost:5000/imdb) and see the customized API collected from IMDb.
+
+![imdb](img/imdb.png)
