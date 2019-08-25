@@ -112,8 +112,8 @@ res.json()
 
 ### 4. [IMDb]('https://www.imdb.com/') API request
 
-<p align="center"><a href="https://www.imdb.com/?ref_=nv_home" target="\_blank"<img width="480" height="360" alt="imdb" src="https://images-eu.ssl-images-amazon.com/images/I/315W5zxAnTL.png"></a></p>
+<p align="center"><a href="https://www.imdb.com/?ref_=nv_home" target="\_blank"><img width="480" height="360" alt="imdb" src="https://images-eu.ssl-images-amazon.com/images/I/315W5zxAnTL.png"></a></p>
 
 * Navigate to (http://localhost:5000/imdb) and see the customized API collected from IMDb.
 
-![imdb](img/imdb.png)
+![IMDb](img/imdb.png)
